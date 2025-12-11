@@ -48,12 +48,12 @@ export const Contact = () => {
           <div className="contact-detail">
             <span className="contact-label">LinkedIn</span>
             <a
-              href="https://www.linkedin.com"
+              href="https://www.linkedin.com/in/elmeri-kallio-632885348/"
               target="_blank"
               rel="noreferrer"
               className="contact-value"
             >
-              linkedin.com/in/your-profile
+              linkedin.com/in/elmeri-kallio-632885348/
             </a>
           </div>
         </div>
