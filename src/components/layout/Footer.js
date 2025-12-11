@@ -8,9 +8,7 @@ export const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-inner">
-        <span className="footer-text">
-          © {year} Elmeri Kallio.
-        </span>
+        <span className="footer-text">© {year} Elmeri Kallio.</span>
 
         <div className="footer-links">
           <Link to="/projects" className="footer-link">

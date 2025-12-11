@@ -1,6 +1,6 @@
 // src/config/projects.js
 export const projects = [
-    {
+  {
     id: "price-checker-backend",
     title: "Price Checker Backend",
     description:
@@ -9,25 +9,23 @@ export const projects = [
     role: "Backend development",
     highlight: true,
   },
-    {
+  {
     id: "virtual-business-card",
     title: "360Mediatalo Virtual Business Card",
-    description:
-      "Unity based mobile application + Vue.js frontend.",
+    description: "Unity based mobile application + Vue.js frontend.",
     tech: ["Vue.js", "JavaScript", "Unity"],
     role: "Frontend",
     highlight: true,
   },
-    {
-        id: "spa-reservation-backend",
-        title: "Space Reservation App Backend",
-        description:
-          "Node.js + Express backend for spa services.",
-        tech: ["Node.js", "Express", "MySQL"],
-        role: "Backend / architecture",
-        highlight: true,
-    },
-   {
+  {
+    id: "spa-reservation-backend",
+    title: "Space Reservation App Backend",
+    description: "Node.js + Express backend for spa services.",
+    tech: ["Node.js", "Express", "MySQL"],
+    role: "Backend / architecture",
+    highlight: true,
+  },
+  {
     id: "space-reservation-app",
     title: "Space Reservation App",
     description:
@@ -45,5 +43,4 @@ export const projects = [
     role: "Frontend",
     highlight: true,
   },
-
 ];

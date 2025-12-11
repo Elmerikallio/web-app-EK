@@ -6,9 +6,9 @@ import { Footer } from "./Footer";
 export const MainLayout = ({ children }) => {
   return (
     <div className="app-root">
-        <Navbar />
-        <main className="app-main">{children}</main>
-        <Footer />
+      <Navbar />
+      <main className="app-main">{children}</main>
+      <Footer />
     </div>
   );
 };

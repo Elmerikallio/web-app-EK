@@ -49,7 +49,8 @@ export const Navbar = () => {
               to={link.path}
               onClick={closeMenu}
               className={({ isActive }) =>
-                "navbar-mobile-link" + (isActive ? " navbar-mobile-link-active" : "")
+                "navbar-mobile-link" +
+                (isActive ? " navbar-mobile-link-active" : "")
               }
             >
               {link.label}

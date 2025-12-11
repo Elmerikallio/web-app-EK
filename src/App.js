@@ -5,7 +5,7 @@ import "./styles/globals.css";
 import "./styles/variables.css";
 
 function App() {
-   return <AppRoutes />;
+  return <AppRoutes />;
 }
 
 export default App;
