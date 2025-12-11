@@ -10,6 +10,15 @@ export const projects = [
     highlight: true,
   },
     {
+    id: "virtual-business-card",
+    title: "360Mediatalo Virtual Business Card",
+    description:
+      "Unity based mobile application + Vue.js frontend.",
+    tech: ["Vue.js", "JavaScript", "Unity"],
+    role: "Frontend",
+    highlight: true,
+  },
+    {
         id: "spa-reservation-backend",
         title: "Space Reservation App Backend",
         description:

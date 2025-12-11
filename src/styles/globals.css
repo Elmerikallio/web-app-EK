@@ -104,7 +104,7 @@ a {
 
 .navbar-link:active {
     background: var(--accent-soft);
-    color: #e5e7eb00;
+    color: #e5e7eb;
     box-shadow: 0 0 0 1px rgba(129, 140, 248, 0.6);
 }
 
@@ -200,7 +200,7 @@ a {
 
 .hero-highlight {
     display: inline-block;
-    background: linear-gradient(to right, #97a7c5, #272985);
+    background: linear-gradient(to right, #1a3ac7, #2890d4);
     background-clip: text;
     --webkit-background-clip: text;
     color: transparent;

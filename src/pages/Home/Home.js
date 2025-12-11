@@ -47,10 +47,10 @@ export const Home = () => {
                 </p>
 
                 <div className="hero-actions">
-                    <a href="#projects" className="btn btn-primary">
+                    <a href="projects" className="btn btn-primary">
                         View projects
                     </a>
-                    <a href="#contact" className="btn btn-secondary">
+                    <a href="contact" className="btn btn-secondary">
                         Contact me
                     </a>
                 </div>
