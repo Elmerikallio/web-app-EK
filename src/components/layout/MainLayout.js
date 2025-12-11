@@ -1,7 +1,7 @@
 // src/components/layout/MainLayout.js
 import React from "react";
-import { Navbar } from "./Navbar";
-import { Footer } from "./Footer";
+import { Navbar } from "./Navbar.js";
+import { Footer } from "./Footer.js";
 
 export const MainLayout = ({ children }) => {
     return (

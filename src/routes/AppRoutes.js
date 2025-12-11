@@ -1,11 +1,11 @@
 // src/routes/AppRoutes.js
 import React from "react";
 import { Route, Routes, BrowserRouter } from "react-router-dom";
-import { MainLayout } from "../components/layout/MainLayout";
-import { Home } from "../pages/Home/Home";
-import { About } from "../pages/About/About";
-import { Projects } from "../pages/Projects/Projects";
-import { Contact } from "../pages/Contact/Contact";
+import { MainLayout } from "../components/layout/MainLayout.js";
+import { Home } from "../pages/Home/Home.js";
+import { About } from "../pages/About/About.js";
+import { Projects } from "../pages/Projects/Projects.js";
+import { Contact } from "../pages/Contact/Contact.js";
 
 export const AppRoutes = () => {
     return (

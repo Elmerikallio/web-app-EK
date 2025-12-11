@@ -1,4 +1,4 @@
-// src/pages/home/Home.jsx
+// src/pages/home/Home.js
 import React from "react";
 
 export const Home = () => {
