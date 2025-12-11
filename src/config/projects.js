@@ -13,7 +13,7 @@ export const projects = [
         id: "spa-reservation-backend",
         title: "Space Reservation App Backend",
         description:
-          "Node.js + Express backend for reserving spaces, with UML, inheritance, and clean architecture focus.",
+          "Node.js + Express backend for spa services.",
         tech: ["Node.js", "Express", "MySQL"],
         role: "Backend / architecture",
         highlight: true,
