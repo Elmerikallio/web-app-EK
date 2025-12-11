@@ -1,5 +1,6 @@
 // src/pages/Contact/Contact.js
 import React from "react";
+import { DecryptTitle } from "../../components/ui/DecryptTitle";
 
 export const Contact = () => {
   const handleSubmit = (e) => {
@@ -10,8 +11,8 @@ export const Contact = () => {
 
   return (
     <section id="contact" className="page">
+      <DecryptTitle text="Contact" />
       <div className="section-header">
-        <h1 className="page-title">Contact</h1>
         <p className="section-subtitle">
           Feel free to reach out if you want to talk about a project, an idea,
           or just connect.
@@ -27,8 +28,8 @@ export const Contact = () => {
 
           <div className="contact-detail">
             <span className="contact-label">Email</span>
-            <a href="mailto:your.email@example.com" className="contact-value">
-              your.email@example.com
+            <a href="mailto:elmerikallioo@gmail.com" className="contact-value">
+              elmerikallioo@gmail.com
             </a>
           </div>
 

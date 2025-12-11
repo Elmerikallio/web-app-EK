@@ -1,11 +1,12 @@
 // src/pages/About/About.js
 import React from "react";
+import { DecryptTitle } from "../../components/ui/DecryptTitle";
 
 export const About = () => {
   return (
     <section className="page">
+      <DecryptTitle text="About" />
       <div className="section-header">
-        <h1 className="page-title">About</h1>
         <p className="section-subtitle">
           ICT engineering student with a focus on software engineering and
           project management, building modern web apps and learning by doing.

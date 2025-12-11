@@ -1,13 +1,14 @@
 // src/pages/Projects/Projects.js
 import React from "react";
+import { DecryptTitle } from "../../components/ui/DecryptTitle";
 import { projects } from "../../config/projects";
 import { ProjectCard } from "../../components/common/ProjectCard";
 
 export const Projects = () => {
   return (
     <section className="page">
+      <DecryptTitle text="Projects" />
       <div className="section-header">
-        <h1 className="page-title">Projects</h1>
         <p className="section-subtitle">
           A selection of projects that show what I have worked on.
         </p>
