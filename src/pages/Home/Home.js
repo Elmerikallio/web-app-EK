@@ -37,7 +37,7 @@ export const Home = () => {
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
       >
-        <p className="hero-kicker">Software Engineering • Web Development</p>
+        <p className="hero-kicker">Software Engineering</p>
         <h1 className="hero-title">
           Hi, I'm <span className="hero-highlight">Elmeri</span>.
         </h1>

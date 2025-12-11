@@ -299,6 +299,32 @@ a {
   margin-top: 3rem;
 }
 
+.project-links-row {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-top: 0.8rem;
+}
+
+.project-link {
+  font-size: 0.8rem;
+  padding: 0.3rem 0.8rem;
+  border-radius: 999px;
+  border: 1px solid rgba(148, 163, 184, 0.8);
+  color: #e5e7eb;
+  background: rgba(15, 23, 42, 0.9);
+  text-decoration: none;
+  transition: border 0.15s ease, transform 0.12s ease, box-shadow 0.15s ease,
+    border-color 0.15s ease;
+}
+
+.project-link:hover {
+  background: rgba(79, 70, 229, 0.9);
+  border-color: rgba(191, 219, 254, 0.9);
+  box-shadow: 0 12px 30px rgba(79, 70, 229, 0.8);
+  transform: translateY(-1px);
+}
+
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
