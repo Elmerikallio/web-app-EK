@@ -3,40 +3,37 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 export const Footer = () => {
-    const year = new Date().getFullYear();
+  const year = new Date().getFullYear();
 
-    return (
-        <Footer className="footer">
-            <div className="footer-inner">
-                <span className="footer-text">
-                    © {year} Elmeri Kallio
-                </span>
+  return (
+    <footer className="footer">
+      <div className="footer-inner">
+        <span className="footer-text">
+          © {year} Elmeri Kallio.
+        </span>
 
-                <div className="footer-links">
-                    <Link
-                        to="/projects"
-                        className="footer-link"
-                    >
-                        Projects
-                    </Link>
-                    <a
-                        href="https://github.com/Elmerikallio"
-                        target="_blank"
-                        rel="noreferrer"
-                        className="footer-link"
-                    >
-                        GitHub
-                    </a>
-                    <a
-                        href="https://www.linkedin.com"
-                        target="_blank"
-                        rel="noreferrer"
-                        className="footer-link"
-                    >
-                        LinkedIn
-                    </a>
-                </div>
-            </div>
-        </Footer>
-    );
+        <div className="footer-links">
+          <Link to="/projects" className="footer-link">
+            Projects
+          </Link>
+          <a
+            href="https://github.com/Elmerikallio"
+            target="_blank"
+            rel="noreferrer"
+            className="footer-link"
+          >
+            GitHub
+          </a>
+          <a
+            href="https://www.linkedin.com"
+            target="_blank"
+            rel="noreferrer"
+            className="footer-link"
+          >
+            LinkedIn
+          </a>
+        </div>
+      </div>
+    </footer>
+  );
 };

@@ -1,7 +1,7 @@
 // src/components/layout/Navbar.js
 import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
-import { navLinks } from "../../config/navLinks.js";
+import { navLinks } from "../../config/navLinks";
 
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -17,6 +17,7 @@ export const Navbar = () => {
           <span className="navbar-logo-text">Elmeri Kallio</span>
         </Link>
 
+        {/* Desktop nav */}
         <nav className="navbar-links">
           {navLinks.map((link) => (
             <NavLink
@@ -32,12 +33,14 @@ export const Navbar = () => {
           ))}
         </nav>
 
+        {/* Mobile button */}
         <button className="navbar-toggle" onClick={toggleMenu}>
           <span className="navbar-toggle-line" />
           <span className="navbar-toggle-line" />
         </button>
       </div>
 
+      {/* Mobile dropdown */}
       {isOpen && (
         <nav className="navbar-mobile">
           {navLinks.map((link) => (
