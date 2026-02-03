@@ -113,6 +113,19 @@ a {
 
 /* Navbar mobile */
 
+.navbar-toggle {
+  display: none;
+  background: transparent;
+  border: none;
+  padding: 0;
+  margin: 0;
+  box-shadow: none;
+  cursor: pointer;
+
+  align-items: center;
+  justify-content: center;
+}
+
 .navbar-toggle-line {
   display: block;
   width: 18px;
