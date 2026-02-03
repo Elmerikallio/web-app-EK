@@ -1,11 +1,9 @@
 // src/pages/Contact/Contact.js
-import React from "react";
 import { DecryptTitle } from "../../components/ui/DecryptTitle";
 
 export const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
-    // For now just prevent reload; later you can integrate EmailJS / backend.
     console.log("Contact form submitted");
   };
 
