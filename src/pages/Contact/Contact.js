@@ -56,7 +56,7 @@ export const Contact = () => {
           </div>
         </div>
 
-        <form className="contact-form" onSubmit={handleSubmit}>
+        {/* <form className="contact-form" onSubmit={handleSubmit}>
           <div className="form-field">
             <label className="form-label" htmlFor="name">
               Name
@@ -99,7 +99,7 @@ export const Contact = () => {
           <button type="submit" className="btn btn-primary btn-magnetic">
             Send message
           </button>
-        </form>
+        </form> */}
       </div>
     </section>
   );
