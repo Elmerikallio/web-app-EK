@@ -1,5 +1,4 @@
 // src/pages/About/About.js
-import React from "react";
 import { DecryptTitle } from "../../components/ui/DecryptTitle";
 
 export const About = () => {
@@ -31,11 +30,11 @@ export const About = () => {
         <div className="about-facts">
           <h2 className="about-subtitle">Quick facts</h2>
           <ul className="about-facts-list">
-            <li>📍 Based in Finland</li>
+            <li>📍 Based in Turku, Finland</li>
             <li>🎓 ICT engineering student</li>
-            <li>🧠 Placeholder</li>
+            {/* <li>🧠 Placeholder</li>
             <li>💻 Placeholder</li>
-            <li>🚀 Placeholder</li>
+            <li>🚀 Placeholder</li> */}
           </ul>
         </div>
       </div>
