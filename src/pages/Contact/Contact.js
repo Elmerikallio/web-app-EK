@@ -26,8 +26,12 @@ export const Contact = () => {
 
           <div className="contact-detail">
             <span className="contact-label">Email</span>
-            <a href="mailto:elmerikallioo@gmail.com" className="contact-value">
-              elmerikallioo@gmail.com
+            <a
+              href="mailto:elmerikallioo@gmail.com"
+              data-email="elmerikallioo [at] gmail [dot] com"
+              className="contact-value"
+            >
+              elmerikallioo [at] gmail [dot] com
             </a>
           </div>
 
