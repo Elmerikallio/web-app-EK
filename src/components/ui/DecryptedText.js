@@ -1,5 +1,5 @@
 // src/components/ui/DecryptedText.js
-import React, { useState, useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 
 const defaultCharacters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890<>!?@#$%&*";
 
@@ -49,6 +49,7 @@ export default function DecryptedText({
   // Animate on load
   useEffect(() => {
     if (animateOn === "load") decrypt();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   // Animate on hover
@@ -66,12 +67,13 @@ export default function DecryptedText({
           if (entry.isIntersecting) decrypt();
         });
       },
-      { threshold: 0.4 }
+      { threshold: 0.4 },
     );
 
     if (ref.current) observer.observe(ref.current);
 
     return () => observer.disconnect();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (

@@ -2,10 +2,10 @@
 import { DecryptTitle } from "../../components/ui/DecryptTitle";
 
 export const Contact = () => {
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log("Contact form submitted");
-  };
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
+  //   console.log("Contact form submitted");
+  // };
 
   return (
     <section id="contact" className="page">
