@@ -29,10 +29,25 @@ export default function DecryptedText({
       const newText = text
         .split("")
         .map((char, index) => {
-          if (iterations < maxIterations) {
-            return characters[Math.floor(Math.random() * characters.length)];
+          const progress = iterations / maxIterations;
+
+          let shouldReveal = false;
+
+          if (revealDirection === "left") {
+            shouldReveal = index < text.length * progress;
+          } else if (revealDirection === "right") {
+            shouldReveal = index > text.length * (1 - progress);
+          } else if (revealDirection === "center") {
+            const center = text.length / 2;
+            const distance = Math.abs(index - center);
+            shouldReveal = distance < center * progress;
           }
-          return char;
+
+          if (shouldReveal) {
+            return char;
+          }
+
+          return characters[Math.floor(Math.random() * characters.length)];
         })
         .join("");
 
