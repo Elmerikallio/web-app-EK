@@ -1,3 +1,5 @@
+import { desc } from "motion/react-client";
+
 // src/config/projects.js
 export const projects = [
   {
@@ -41,6 +43,15 @@ export const projects = [
       "React-based personal portfolio showcasing projects, skills, and background, with interactive UI.",
     tech: ["React", "React Router", "CSS"],
     role: "Frontend",
+    highlight: true,
+  },
+  {
+    id: "uudenkaupungin-työvene-orientation",
+    title: "Uudenkaupungin työvene Orientation",
+    description:
+      "WordPress work safety orientation for workers of Uudenkaupungin Työvene.",
+    tech: ["WordPress"],
+    role: "Developer",
     highlight: true,
   },
 ];
